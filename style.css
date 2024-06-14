@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-young: "Young Serif", serif;
+    --font-outfit: "Outfit", sans-serif;
+
+    --White: rgb(241, 241, 241);
+    --Rose-White: rgb(248, 245, 247);
+    --Eggshell: rgb(224, 183, 140);
+    --Light-Grey: rgb(221, 208, 195);
+    --Wenge-Brown: rgb(95, 87, 78);
+    --Dark-Charcoal: rgb(48, 45, 44);
+
+    
+    --Nutmeg: rgb(133, 70, 50);
+    --DarkRaspberry: rgb(123, 40, 79);
+}
+
+h1,h2{
+    font-family: var(--font-young);
+}
+
+p,h3{
+    font-family: var(--font-outfit);
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    background-color: var(--Eggshell);
+}
+
+.container{
+    max-width: 730px;
+    background-color: var(--White);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container h1{
+    padding: 20px 0;
+    font-weight: lighter;
+
+}
+
+.container p{
+    line-height: 24px;
+}
+
+.container h2{
+    font-weight: normal;
+    color: var(--Nutmeg);
+}
+
+.container .preparation h3{
+    color: var(--DarkRaspberry);
+    margin-bottom: 15px;
+}
+
+.container .preparation{
+    background-color: var(--Rose-White);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 30px 0 30px 0
+    
+}
+
+.container .preparation .lista{
+    margin-left: 20px;
+    color: var(--Wenge-Brown);
+}
+
+.container .preparation .lista li{
+    line-height: 28px;
+    font-family: var(--font-outfit);
+}
+
+.container .ingredientes{
+    list-style:inside;
+}
